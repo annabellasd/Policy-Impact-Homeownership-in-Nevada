@@ -1,1 +1,3 @@
 # ECON-526-final-project
+
+This is a capstone project for a master's level economics, and data science class at UBC. It investigates the impact of a mortgage program in Nevada on homeownership rates among the low-income targetted group. The primary 'novel to me' method used was synthetic control however it quickly became infeasible on my laptop under time constraints/laptop compuuting power. So rather than presenting a strong insight this project serves more of a demonstration of what I learned over this class while describing potential ways I could've done inference should I have had the computing power. 
