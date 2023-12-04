@@ -1,3 +1,13 @@
 # ECON-526-final-project
 
-This is a capstone project for a master's level economics, and data science class at UBC. It investigates the impact of a mortgage program in Nevada on homeownership rates among the low-income targetted group. The primary 'novel to me' method used was synthetic control however it quickly became infeasible on my laptop under time constraints/laptop compuuting power. So rather than presenting a strong insight this project serves more of a demonstration of what I learned over this class while describing potential ways I could've done inference should I have had the computing power. 
+This study examines the impact of the "Hope Brings You Home Down Payment Assistance Program" in Nevada, focusing on its effectiveness in increasing homeownership rates among low-income households in designated distressed areas. Utilizing publicly available mortgage data from Fannie Mae and Freddie Mac for the period 2012-2019, the research employs a synthetic control and Difference-in-Differences (DiD) approach to assess the policy's influence.
+
+The synthetic control method provided a pre-treatment match, allowing for estimation of the program's effects. The analysis revealed a significant positive coefficient for the interaction of treatment and post-treatment periods, indicating the policy's positive contribution to homeownership among the targeted demographic.
+
+However, the study faced limitations due to computational constraints, leading to a reduced set of covariates and a limited control pool, potentially affecting the precision of the control match. Additionally, the absence of robustness checks such as permutation tests necessitates cautious interpretation of the results.
+
+Included Material: 
+
+Jupyter Notebook with all the code 
+CSV files of output
+PDF file of the written up report
