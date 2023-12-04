@@ -1,0 +1,285 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0007_ds233_20175_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2013-2017
+Geographic level: Census Tract (by State--County)
+Dataset:          2017 American Community Survey: 5-Year Data [2013-2017, Block Groups & Larger Areas]
+   NHGIS code:    2013_2017_ACS5a
+   NHGIS ID:      ds233
+Breakdown(s):     Geographic Component:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  AHY1
+ 
+2. Median Household Income in the Past 12 Months (in 2017 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  AH1P
+ 
+3. Housing Units
+   Universe:    Housing units
+   Source code: B25001
+   NHGIS code:  AH35
+ 
+4. Tenure
+   Universe:    Occupied housing units
+   Source code: B25003
+   NHGIS code:  AH37
+ 
+5. Median Year Structure Built
+   Universe:    Housing units
+   Source code: B25035
+   NHGIS code:  AH40
+ 
+6. Median Gross Rent (Dollars)
+   Universe:    Renter-occupied housing units paying cash rent
+   Source code: B25064
+   NHGIS code:  AH5R
+ 
+7. Median Value (Dollars)
+   Universe:    Owner-occupied housing units
+   Source code: B25077
+   NHGIS code:  AH53
+ 
+8. Mortgage Status
+   Universe:    Owner-occupied housing units
+   Source code: B25081
+   NHGIS code:  AH57
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2017-2019, 115th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Census Geographic Identifier
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  AHY1
+        AHY1E001:    Total
+ 
+    Table 2:     Median Household Income in the Past 12 Months (in 2017 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AH1P
+        AH1PE001:    Median household income in the past 12 months (in 2017 inflation-adjusted dollars)
+ 
+    Table 3:     Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  AH35
+        AH35E001:    Total
+ 
+    Table 4:     Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AH37
+        AH37E001:    Total
+        AH37E002:    Owner occupied
+        AH37E003:    Renter occupied
+ 
+    Table 5:     Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  AH40
+        AH40E001:    Median year structure built
+ 
+    Table 6:     Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AH5R
+        AH5RE001:    Median gross rent
+ 
+    Table 7:     Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AH53
+        AH53E001:    Median value (dollars)
+ 
+    Table 8:     Mortgage Status
+    Universe:    Owner-occupied housing units
+    Source code: B25081
+    NHGIS code:  AH57
+        AH57E001:    Total
+        AH57E002:    Housing units with a mortgage, contract to purchase, or similar debt
+        AH57E003:    Housing units with a mortgage, contract to purchase, or similar debt: With either a second mortgage or home equity loan, but not both
+        AH57E004:    Housing units with a mortgage, contract to purchase, or similar debt: With either a second mortgage or home equity loan, but not both: Second mortgage only
+        AH57E005:    Housing units with a mortgage, contract to purchase, or similar debt: With either a second mortgage or home equity loan, but not both: Home equity loan only
+        AH57E006:    Housing units with a mortgage, contract to purchase, or similar debt: Both second mortgage and home equity loan
+        AH57E007:    Housing units with a mortgage, contract to purchase, or similar debt: No second mortgage and no home equity loan
+        AH57E008:    Housing units without a mortgage
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  AHY1
+        AHY1M001:    Total
+ 
+    Table 2:     Median Household Income in the Past 12 Months (in 2017 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AH1P
+        AH1PM001:    Median household income in the past 12 months (in 2017 inflation-adjusted dollars)
+ 
+    Table 3:     Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  AH35
+        AH35M001:    Total
+ 
+    Table 4:     Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AH37
+        AH37M001:    Total
+        AH37M002:    Owner occupied
+        AH37M003:    Renter occupied
+ 
+    Table 5:     Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  AH40
+        AH40M001:    Median year structure built
+ 
+    Table 6:     Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AH5R
+        AH5RM001:    Median gross rent
+ 
+    Table 7:     Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AH53
+        AH53M001:    Median value (dollars)
+ 
+    Table 8:     Mortgage Status
+    Universe:    Owner-occupied housing units
+    Source code: B25081
+    NHGIS code:  AH57
+        AH57M001:    Total
+        AH57M002:    Housing units with a mortgage, contract to purchase, or similar debt
+        AH57M003:    Housing units with a mortgage, contract to purchase, or similar debt: With either a second mortgage or home equity loan, but not both
+        AH57M004:    Housing units with a mortgage, contract to purchase, or similar debt: With either a second mortgage or home equity loan, but not both: Second mortgage only
+        AH57M005:    Housing units with a mortgage, contract to purchase, or similar debt: With either a second mortgage or home equity loan, but not both: Home equity loan only
+        AH57M006:    Housing units with a mortgage, contract to purchase, or similar debt: Both second mortgage and home equity loan
+        AH57M007:    Housing units with a mortgage, contract to purchase, or similar debt: No second mortgage and no home equity loan
+        AH57M008:    Housing units without a mortgage
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+        IPUMS National Historical Geographic Information System: Version 18.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2023.
+        http://doi.org/10.18128/D050.V18.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
